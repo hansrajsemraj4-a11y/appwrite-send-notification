@@ -41,3 +41,4 @@ export default async ({ req, res }) => {
     return res.json({ success: false, error: err.message });
   }
 };
+
